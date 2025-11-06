@@ -1,0 +1,34 @@
+ .about h1{
+    color: white;
+    width: 50%;
+    background-color: #010e0e;
+    text-align: center;
+    margin-left: 28%;
+}
+.about h3{
+    color: floralwhite;
+  display: flex
+  ;
+  background-image:linear-gradient(135deg,#ea6d66 0%,#40047b 100%) ;
+    text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-color: #15b8c2;
+    font-style: oblique;
+    font-style: inherit;
+    font-size:150%;
+    border-radius: 2%;
+    border-style:solid;
+   padding-top: 3%;
+   padding-bottom: 3%;
+   padding-left: 5%;
+   padding-right: 5%;
+   
+}
+.about{
+    padding-bottom:6%;
+    padding-top:6%;
+    background-image:linear-gradient(120deg,#5a0552 0%,#f33214 100%) ;
+}
+ 

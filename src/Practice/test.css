@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: aqua;
 
 }
 
@@ -12,12 +13,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-/*div {
+.parent_component {
   display: flex;
-  flex-direction: column;
+  flex-direction:row;
   align-items: center;
   justify-content: center;
-  /*height: 100vh;
+  height: 100vh;
   font-size: larger;
-  text-align:center;
-}*/
+  text-align: center;
+
+}
+

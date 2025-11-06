@@ -1,0 +1,60 @@
+.contact{
+    background-color:crimson;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 25%;
+    margin-right:25%;
+    align-content: center;
+    padding-left: 8%;
+    padding-bottom:30px;
+    border-radius: 8px;
+    
+    
+}
+
+.contact h1{
+    align-content: center;
+    margin-left: 20%;
+    margin-right: 45%;
+    background-color: aqua;
+    
+    padding-left: 18px;
+    border-radius: 4px;
+   
+}
+.contact h3{
+    display:flex;
+    color:aliceblue;
+}
+.contact button{
+   display:block;
+    margin-left: 10%;
+    
+    margin-top: 10%;
+    border-radius: 12px;
+    cursor:pointer;
+    transition: "all 0.3s ease";
+    border-color: rgb(171, 166, 9);
+    background-color: rgb(239, 239, 235);
+    
+    font-size: 160%;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+    
+}
+.contact input:focus{
+   
+     border-color:#750f9e;
+     outline: none;
+     
+}
+.contact input{
+    font-size: 100%;
+    border-color: chartreuse;
+    border-radius: 5px;
+    
+}
+.contact .hover  {
+    color: aqua;
+}

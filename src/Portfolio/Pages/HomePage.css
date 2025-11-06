@@ -1,0 +1,374 @@
+
+
+/*.intro{
+   background-color: rgb(26, 25, 35);
+    padding-bottom: 15%;
+    padding-top: 7%;
+    
+    padding-left: 10%;
+ 
+
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  color: #ffffff;
+  text-align: center;
+
+
+
+}
+
+
+ 
+  
+  
+
+ 
+
+
+ .hintro{
+
+  
+    color: rgb(246, 248, 248);
+    font-size: 1.3rem;
+  font-weight: 400;
+  color: #dfe6f0;
+  max-width: 700px;
+  text-align: center;
+  line-height: 1.6;
+   
+
+}*/
+
+
+.intro-section {
+  background-color: #0a0a0a;
+  color: #f5f5f5;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+ 
+  font-family: "Poppins", sans-serif;
+  transition: background 0.5s ease, color 0.5s ease;
+}
+
+/* ✨ Heading */
+.intro-section h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 40px auto; 
+  margin-bottom: 15px;
+  
+}
+
+.intro-section h1 span {
+  color: #3dc4e6;
+  text-shadow: 0 0 10px #00bcd4;
+}
+
+/* 💬 Subtitle */
+.intro-section p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  color: #bdbdbd;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+/* 🌐 Social Buttons */
+.social-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+/* 🎨 Platform Colors */
+.linkedin {
+  border-color: #0077b5;
+}
+.linkedin:hover {
+  background-color: #0077b5;
+  box-shadow: 0 0 15px #0077b5;
+  transform: scale(1.05);
+}
+
+.instagram {
+  border-color: #e4405f;
+}
+.instagram:hover {
+  background-color: #e4405f;
+  box-shadow: 0 0 15px #e4405f;
+  transform: scale(1.05);
+}
+
+.email {
+  border-color: #00c853;
+}
+.email:hover {
+  background-color: #00c853;
+  box-shadow: 0 0 15px #00c853;
+  transform: scale(1.05);
+}
+.cv-button {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.download-btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #00bcd4, #0066ff);
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  box-shadow: 0 0 15px rgba(0, 188, 212, 0.3);
+  transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+  transform: scale(1.07);
+  background: linear-gradient(90deg, #0099cc, #0044cc);
+  box-shadow: 0 0 20px rgba(0, 188, 212, 0.5);
+}
+/* ✨ Smooth fade-in animation */
+.intro-section {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.Heading{
+  /*  font-size: 350%;*/
+   margin-left: 2%;
+    color: rgb(241, 245, 245);
+    font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+
+}
+
+.about-section {
+  background-color: #11131a; /* slightly lighter than intro */
+  color: #f8f8f8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 40px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 35px;
+  color: #6ee7ff; /* softer cyan tone */
+  text-shadow: 0 0 12px rgba(110, 231, 255, 0.4);
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  max-width: 780px;
+  color: #d8d8d8;
+  line-height: 1.8;
+  margin-bottom: 25px;
+  background: rgba(255, 255, 255, 0.04);
+  border-left: 4px solid #6ee7ff;
+  padding: 16px 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 18px rgba(110, 231, 255, 0.06);
+  transition: all 0.3s ease;
+}
+
+.about-section p:hover {
+  background: rgba(255, 255, 255, 0.07);
+  transform: scale(1.02);
+}
+
+
+
+.skill-section{
+    background-color: yellow;
+    margin-bottom: 20%;
+}
+ div.react{
+     padding-left: 60%;
+     background-color: black;
+}
+ div .react1 , h1{
+     margin-left: 20%;
+  
+    
+}
+/* Skills Section */
+/* Skills Section */
+.skills-section {
+  background: linear-gradient(135deg, #f7f9fc, #e3f2fd);
+  padding: 70px 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.section-title {
+  font-size: 2.3rem;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 50px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.skill-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px 20px;
+  width: 150px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.skill-card i {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.skill-card h3 {
+  color: #150622;
+  font-size: 1.1rem;
+  margin: 0;
+}
+.contact-section {
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  padding: 80px 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.section-subtitle {
+  color: #555;
+  margin-bottom: 40px;
+  font-size: 1rem;
+}
+
+.contact-form {
+  background: white;
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  transition: all 0.3s ease;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1.5px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.3);
+}
+
+.contact-form button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+.contact-form button:hover {
+  background: #0056b3;
+  transform: translateY(-2px);
+}
+
+/* ✅ Success message under button */
+.success-message {
+  color: green;
+  font-weight: 500;
+  margin-top: 10px;
+  animation: fadeIn 0.5s ease;
+}
+
+/* subtle animation for success text */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
