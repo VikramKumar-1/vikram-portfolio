@@ -45,7 +45,7 @@ export default function Home(){
       <section className="intro-section">
         <h1>Hi, I'm <span>Vikram Kumar</span> 👋</h1>
 
-        <p> I’m a fresher passionate about front-end development, learning and building modern, responsive web interfaces using React, JavaScript, HTML, and CSS.</p>
+        <p> I’m a fresher passionate about software development, learning and building modern web applications using HTML, CSS, React, Laravel, MySQL, Java, and C#.</p>
                                
         <div className="social-links">
           <a
@@ -62,7 +62,7 @@ export default function Home(){
 
            <div className="cv-button">
           <a
-            href="/vikram_frontend_cv.pdf" // 👈 put your actual CV file in public folder
+            href="/Vikram_Frontend.pdf" // 👈 put your actual CV file in public folder
             download
               target="_blank"
              rel="noopener noreferrer"
@@ -80,15 +80,17 @@ export default function Home(){
 
   <div className="about-content">
     <p>
-      Hello! I'm <strong>Vikram Kumar</strong>, a passionate <strong>Front-End Web Developer </strong> 
-      with a love for crafting clean, user-friendly, and visually appealing interfaces.  
+      Hello! I'm <strong>Vikram Kumar</strong>, I’m a BCA graduate with a passion for building clean, user-friendly web applications. 
+      I enjoy working with<strong> HTML, CSS, React, Laravel, SQL, Java, and C#</strong>, and I love solving problems through code. 
+      I’m always exploring new technologies and improving my skills to create meaningful digital experiences. 
       I enjoy turning creative ideas into responsive and functional websites.
                
     </p>
 
     <p>
       My core skills include <strong>HTML</strong>, <strong>CSS</strong>, 
-      <strong>JavaScript</strong>, <strong>React</strong>, and <strong>Java</strong>.  
+      <strong>JavaScript</strong>, <strong>React</strong>, and <strong>Java</strong>,
+      <strong>Laravel</strong> and <strong>MySQL</strong>.
       I focus on writing code that’s both efficient and easy to maintain.
     </p>
 
@@ -128,6 +130,18 @@ export default function Home(){
     <div class="skill-card">
       <i class="devicon-java-plain colored"></i>
       <h3>Java</h3>
+    </div>
+
+    
+
+    <div class="skill-card">
+      <i class="devicon-laravel-plain colored"></i>
+      <h3>Laravel</h3>
+    </div>
+
+    <div class="skill-card">
+      <i class="devicon-java-plain colored"></i>
+      <h3>MySQL</h3>
     </div>
   </div>
 </section>

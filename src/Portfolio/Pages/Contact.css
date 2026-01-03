@@ -1,4 +1,4 @@
-.contact{
+/*.contact{
     background-color:crimson;
     margin-top: 4%;
     margin-bottom: 4%;
@@ -57,4 +57,47 @@
 }
 .contact .hover  {
     color: aqua;
+}
+
+/* Contact Box */
+/* Main Contact Box */
+.contact {
+  background-color: crimson;
+  width: 70%;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.3);
+ min-height: 52vh;
+}
+/* Each row */
+.contact .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+.contact form > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact h3 {
+  color: white;
+  font-size: 1.1rem;
+  margin: 0;
+  min-width: 80px;  /* align labels nicely */
+}
+
+.contact button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: rgb(239,239,235);
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
 }

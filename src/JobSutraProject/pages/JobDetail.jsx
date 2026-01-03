@@ -1,0 +1,45 @@
+import { useParams } from "react-router-dom";
+
+//import {timeAgo} from "../utils/timeAgo"
+import { client } from "../../sanityClient"
+import { useEffect, useState} from "react"
+
+export default function JobDetail()
+{
+    const { slug } = useParams();
+     const [job, setJob] = useState(null);
+
+  useEffect(() => {
+    client.fetch(
+      `*[_type=="job" && slug.current==$slug][0]{
+        title,
+        location,
+        experience,
+        eligibility,
+        description,
+        lastDate,
+        applyLink,
+        companyName
+      }`,
+      { slug }
+    ).then(setJob);
+  }, [slug]);
+
+  if (!job) return null;
+
+  return (
+    <div className="detail-container">
+      <h1>{job.title}</h1>
+      <p><b>Company:</b> {job.companyName}</p>
+      <p><b>Location:</b> {job.location}</p>
+      <p><b>Experience:</b> {job.experience}</p>
+      <p><b>Eligibility:</b> {job.eligibility}</p>
+      <p><b>Last Date:</b> {job.lastDate}</p>
+      <p>{job.description}</p>
+
+      <a href={job.applyLink} target="_blank" rel="noopener noreferrer" className="apply-btn">
+        Apply Now
+      </a>
+    </div>
+  );
+}

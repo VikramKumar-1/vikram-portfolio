@@ -147,19 +147,21 @@ ul {
   .nav-links {
     position: absolute;
     top: 70px;
+    left:0;
     right: 0;
-    width: 200px;
-    height: calc(100vh - 70px);
+    width: 100%;
+   
     background-color: #0b0c10;
-    transform: translateX(100%);
-    transition: transform 0.3s ease-in-out;
-    display: flex;
-    justify-content: center;
+       padding: 20px 0;
+
+    display: none;
+   /* justify-content: center;*/
     align-items: center;
+    z-index:99;
   }
 
   .nav-links.open {
-    transform: translateX(0);
+    display: block;
   }
 
   .nav-links ul {
