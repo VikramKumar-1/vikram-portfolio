@@ -6,7 +6,7 @@ import App from './Portfolio/App'
 //import App from './ApiPractice/ApiPost'
 //import App from './ApiPractice/App'
 //import  App from './ToDoApp/ToDoApp';
- //import App from './JobSutraProject/App'
+ 
 
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router';
